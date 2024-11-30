@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Content Checklist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: #ffffff;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        .checkbox {
+            text-align: center;
+        }
+
+        input[type="checkbox"] {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        textarea {
+            width: 100%;
+            height: 40px;
+            resize: none;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea:focus {
+            border-color: #3498db;
+            outline: none;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #1d6fa5;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Course Content Checklist</h1>
+        <form action="https://formspree.io/f/xanylbwe" method="POST">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Summary of Course Content</th>
+                        <th class="checkbox">Checkbox for Shahriar Sir</th>
+                        <th>No. of Lectures</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Introduction to food supply chains: The actors in a food supply chain Types of food chain Factors influencing food supply chains</td>
+                        <td class="checkbox"><input type="checkbox" name="Introduction"></td>
+                        <td><textarea name="Introduction_lectures" placeholder="Enter lectures here..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Food production: Entities in the agriculture supply chain Agriculture and poverty alleviation the barriers to the development of the agriculture sector Future steps for the agriculture industry</td>
+                        <td class="checkbox"><input type="checkbox" name="Food_production"></td>
+                        <td><textarea name="Food_production_lectures" placeholder="Enter lectures here..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Food manufacturing: The importance of food processing Changing market conditions Food safety Procurement Food packaging Inventory</td>
+                        <td class="checkbox"><input type="checkbox" name="Food_manufacturing"></td>
+                        <td><textarea name="Food_manufacturing_lectures" placeholder="Enter lectures here..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Food retailing: The retail environment How does the food reach the consumer? Online grocery retailing Challenges to the future of food retailing</td>
+                        <td class="checkbox"><input type="checkbox" name="Food_retailing"></td>
+                        <td><textarea name="Food_retailing_lectures" placeholder="Enter lectures here..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Food logistics: Movement of food ICT future trends in agri-food logistics Packaging in logistics Temperature-controlled supply chains</td>
+                        <td class="checkbox"><input type="checkbox" name="Food_logistics"></td>
+                        <td><textarea name="Food_logistics_lectures" placeholder="Enter lectures here..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Collaboration and relationships: Trends in supply chain relationships, Current relationship models within supply chain collaboration within the food sector other trends</td>
+                        <td class="checkbox"><input type="checkbox" name="Collaboration"></td>
+                        <td><textarea name="Collaboration_lectures" placeholder="Enter lectures here..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Risk management: Risk management in the supply chain Risks in the food supply chain Managing supply chains</td>
+                        <td class="checkbox"><input type="checkbox" name="Risk_management"></td>
+                        <td><textarea name="Risk_management_lectures" placeholder="Enter lectures here..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Sustainability challenges in food supply chains: Sustainability – the origins of the idea Sustainable supply chains Sustainable food supply chains Measuring sustainability Developing sustainability within food supply chains</td>
+                        <td class="checkbox"><input type="checkbox" name="Sustainability_challenges"></td>
+                        <td><textarea name="Sustainability_challenges_lectures" placeholder="Enter lectures here..."></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="footer">
+            <p>&copy; 2024 - Interactive Checklist</p>
+        </div>
+    </div>
+</body>
+</html>
